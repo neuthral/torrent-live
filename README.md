@@ -7,11 +7,11 @@ Torrent-live is a new open source bittorrent client which detects, blocks and fo
 
 Torrent-live is not using unsafe trackers and client/peer exchanges mechanisms, only the bittorrent DHT (Distributed Hash Table).
 
-This project and the related study [Monitoring and blocking the bittorrent monitoring spies](https://gist.github.com/Ayms/f2da9f860775ead2066e) do not aim to encourage things such as copyright infrigement but aim to protect the users and their privacy from mass surveillance.
+This project and the related study [Monitoring and blocking the bittorrent monitoring spies](https://gist.github.com/Ayms/79bdfc6ba747fb49503d) do not aim to encourage things such as copyright infrigement but aim to protect the users and their privacy from mass surveillance.
 
 ## Presentation
 
-Check out [torrent-live](http://www.torrent-live.org) for a more general presentation and to get the dynamic torrent blocklist.
+Check out [torrent-live](http://torrent-live.peersm.com) for a more general presentation and to get the dynamic torrent blocklist.
 
 This is based on the excellent [torrent-stream](https://github.com/mafintosh/torrent-stream) and [bittorrent-dht](https://github.com/feross/bittorrent-dht) modules.
 
@@ -242,7 +242,7 @@ The method is determinist and does allow to catch quasi all the spies, only a fe
 
 ## Deanonymizing the VPN peers
 
-We explain [here](http://torrent-live.org/) section "I don't care, I am using a VPN or an anonymizer network" why using a VPN with the bittorrent network is not necessarily a good idea.
+We explain [here](http://torrent-live.peersm.com/) section "I don't care, I am using a VPN or an anonymizer network" why using a VPN with the bittorrent network is not necessarily a good idea.
 
 A VPN peer has the same deviant behavior than a torrent-live user with the freerider option activated, it cannot seed, neither discuss/share anything except with whom it has already talked to, which is quite limited.
 
@@ -323,7 +323,7 @@ More user friendly web based interface.
 * [Ayms/bittorrent-nodeid](https://github.com/Ayms/bittorrent-nodeid)
 * [Ayms/node-Tor](https://github.com/Ayms/node-Tor)
 * [Ayms/iAnonym](https://github.com/Ayms/iAnonym)
-* [Interception Detector](http://www.ianonym.com/intercept.html)
+* [Interception Detector](http://ianonym.peersm.com/intercept.html)
 * [Ayms/abstract-tls](https://github.com/Ayms/abstract-tls)
 * [Ayms/websocket](https://github.com/Ayms/websocket)
 * [Ayms/node-typedarray](https://github.com/Ayms/node-typedarray)
